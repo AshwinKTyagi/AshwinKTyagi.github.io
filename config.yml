@@ -1,5 +1,5 @@
 baseURL: "https://ashwintyagi.com/"
-title: ExampleSite
+title: AshwinKTyagi
 paginate: 5
 theme: PaperMod
 
@@ -16,31 +16,30 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
+  title: AshwinKTyagi
+  description: "Welcome!"
   keywords: [Blog, Portfolio, PaperMod]
   author: Me
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
-  disableThemeToggle: false
+  # disableThemeToggle: false
 
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
-  ShowWordCount: true
+  ShowCodeCopyButtons: true
   ShowRssButtonInSectionTermList: true
-  UseHugoToc: true
-  disableSpecial1stPost: false
+  ShowAllPagesInArchive: true
+  # disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
+  # comments: false
   hidemeta: false
   hideSummary: false
-  showtoc: false
-  tocopen: false
+  showtoc: true
+  tocopen: true
 
   assets:
     # disableHLJS: true # to disable highlight.js
@@ -58,23 +57,23 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
+    enabled: true # needs to be explicitly set
+    title: Ashwin Tyagi
+    subtitle: "I'm a computer scientist who loves learning and finding creative solutions to problems. In my free time, you'll catch me on the basketball court or playing the guitar."
+    imageUrl: "/images/akt cover photo.jpeg"
+    imageWidth: 150
+    imageHeight: 150
+    imageTitle: my face
     buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
+      - name: education
+        url: education
+      - name: projects
+        url: archives
 
   # home-info mode
-  homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+  # homeInfoParams:
+  #   Title: "Ashwin Tyagi"
+  #   Content: Welcome to my website!
 
   socialIcons:
         # - name: twitter
@@ -92,10 +91,10 @@ params:
     yandex:
       SiteVerificationTag: "XYZabc"
 
-  cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+  # cover:
+  #   hidden: true # hide everywhere but not in structured data
+  #   hiddenInList: true # hide on list pages and home
+  #   hiddenInSingle: true # hide on single page
 
   editPost:
     URL: "https://github.com/<path_to_repo>/content"
@@ -104,22 +103,22 @@ params:
 
   # for search
   # https://fusejs.io/api/options.html
-  fuseOpts:
-    isCaseSensitive: false
-    shouldSort: true
-    location: 0
-    distance: 1000
-    threshold: 0.4
-    minMatchCharLength: 0
-    keys: ["title", "permalink", "summary", "content"]
+  # fuseOpts:
+  #   isCaseSensitive: false
+  #   shouldSort: true
+  #   location: 0
+  #   distance: 1000
+  #   threshold: 0.4
+  #   minMatchCharLength: 0
+  #   keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
-      weight: 10
-    - identifier: tags
-      name: tags
+    - identifier: education
+      name: education
+      url: /education/
+      weight: 5
+    - identifier: projects
+      name: projects
       url: /tags/
       weight: 20
     - identifier: ashwin
