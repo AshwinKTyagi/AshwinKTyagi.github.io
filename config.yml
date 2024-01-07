@@ -119,7 +119,7 @@ menu:
       weight: 5
     - identifier: projects
       name: projects
-      url: /tags/
+      url: /projects/
       weight: 20
     - identifier: ashwin
       name: ashwintyagi.com 
