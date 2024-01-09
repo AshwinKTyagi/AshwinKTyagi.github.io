@@ -19,13 +19,13 @@ params:
   title: AshwinKTyagi
   description: "Welcome!"
   keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  author: Ashwin Tyagi
   # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+  # images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
+
   defaultTheme: auto # dark, light
   # disableThemeToggle: false
-
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
@@ -33,27 +33,28 @@ params:
   ShowCodeCopyButtons: true
   ShowRssButtonInSectionTermList: true
   ShowAllPagesInArchive: true
+  ShowPageNums: true
   # disableSpecial1stPost: false
-  disableScrollToTop: false
-  # comments: false
-  hidemeta: false
-  hideSummary: false
+  # disableScrollToTop: false
+  # # comments: false
+  # hidemeta: false
+  # hideSummary: false
   showtoc: true
   tocopen: true
 
   assets:
     disableHLJS: true # to disable highlight.js
-    # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    # # disableFingerprinting: true
+    # favicon: "<link / abs url>"
+    # favicon16x16: "<link / abs url>"
+    # favicon32x32: "<link / abs url>"
+    # apple_touch_icon: "<link / abs url>"
+    # safari_pinned_tab: "<link / abs url>"
 
-  label:
-    text: "Home"
-    icon: /apple-touch-icon.png
-    iconHeight: 35
+  # label:
+  #   text: "Home"
+  #   icon: /apple-touch-icon.png
+  #   iconHeight: 35
 
   # profile-mode
   profileMode:
@@ -85,7 +86,7 @@ params:
 
   analytics:
     google:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: "G-F39WX3E539"
     bing:
       SiteVerificationTag: "XYZabc"
     yandex:
