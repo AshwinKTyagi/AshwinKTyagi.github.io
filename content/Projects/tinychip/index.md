@@ -1,7 +1,7 @@
 ---
 title: "TinyChip"
 summary: "Duration: September 2023 - December 2023 | Github: **(https://github.com/AshwinKTyagi/TinyChip)**"
-date:  2024-01-05T20:48:26-08:00
+date:  2023-12-16T20:48:26-08:00
 # weight: 1
 aliases: ["/tinychip"]
 tags: ["Projects", "TinyChip"]

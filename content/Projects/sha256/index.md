@@ -1,7 +1,7 @@
 ---
 title: "SHA 256 Encoder and Bitcoin Hashing"
 summary: "Duration: September 2023 - December 2023 | Github: **(https://github.com/aktyagiUCSD/ECE-111-Final-Project)**"
-date:  2024-01-05T19:48:26-08:00
+date:  2023-12-16T19:48:26-08:00
 # weight: 1
 aliases: ["/sha256"]
 tags: ["Projects", "SHA256"]
