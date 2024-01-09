@@ -68,7 +68,7 @@ params:
       - name: education
         url: education
       - name: projects
-        url: archives
+        url: projects
 
   # home-info mode
   # homeInfoParams:
