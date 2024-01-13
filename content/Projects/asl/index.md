@@ -47,5 +47,15 @@ While it made training our model rather simple, it was difficult to doctor the i
 This led to a much larger error rate in real practice. Moreover, the Sign Language MNIST exclusively comprises images featuring hands with lighter skin tones. It does not include data with hands of darker skin tones, leading to further inaccuracies when testing.
 
 Although the neural network does not always return the correct output, we successfully created a functional ASL translator prototype;
-Showcasing the potential for real-time sign language translation using computer vision and machine learning.
+showcasing the potential for real-time sign language translation using computer vision and machine learning.
 
+#### Design Process:
+1. Use OpenCV to get video input and process it using MediaPipe's Hands module
+    - MediaPipe's Hand module allowed us to grab and focus on specifically the user's hand
+2. Build and Save the neural network so that we don't need to train and test the net every single run
+3. Combine both these to get a string of outputted characters
+4. Run string of characters through SpaCy, a natural language processing module.
+
+#### Current Issues:
+- There is no implementation for characters that require movement: J and Z.
+- The string prior to the natural language processing is not the cleanest to work with and depends on how often the characters are read in from the video input.
