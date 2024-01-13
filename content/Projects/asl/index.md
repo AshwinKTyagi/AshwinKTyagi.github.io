@@ -1,6 +1,6 @@
 ---
 title: "American Sign Language Translator"
-summary: "Duration: June 2022 - July 2022 | Github: https://github.com/AshwinKTyagi/ASLTranslator"
+summary: "I partnered with a team member to develop an ASL translator that processes live video input, capturing still images, and utilizing a neural network for real-time translation."
 date:  2022-07-01T20:48:26-08:00
 # weight: 1
 aliases: ["/ASLTranslator"]

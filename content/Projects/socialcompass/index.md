@@ -1,6 +1,6 @@
 ---
 title: "Social Compass"
-summary: "Duration: January 2023 - March 2023 | Github: https://github.com/CSE-110-Winter-2023/cse-110-project-cse110-team-10"
+summary: "As a part of my Software Development Class at UCSD, a team of six developers including myself designed and created a Social Compass Mobile App."
 date:  2023-03-01T20:48:26-08:00
 # weight: 1
 aliases: ["/SocialCompass"]

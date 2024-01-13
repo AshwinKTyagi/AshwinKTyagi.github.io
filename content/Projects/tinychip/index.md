@@ -1,6 +1,6 @@
 ---
 title: "TinyChip"
-summary: "Duration: September 2023 - December 2023 | Github: **(https://github.com/AshwinKTyagi/TinyChip)**"
+summary: "I partnered with a team member to design and implement a microprocessor with a MIPS-like architecture using SystemVerilog."
 date:  2023-12-16T20:48:26-08:00
 # weight: 1
 aliases: ["/tinychip"]
