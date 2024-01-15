@@ -1,5 +1,5 @@
 baseURL: "https://ashwintyagi.com/"
-title: AshwinKTyagi
+title: "Ashwin Tyagi"
 paginate: 5
 theme: PaperMod
 
@@ -18,7 +18,7 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: AshwinKTyagi
+  title: "Ashwin Tyagi"
   description: "Welcome!"
   keywords: [Blog, Portfolio, PaperMod]
   author: Ashwin Tyagi
