@@ -1,4 +1,4 @@
-baseURL: "http://ashwintyagi.com/"
+baseURL: "https://ashwintyagi.com/"
 title: Ashwin Tyagi
 paginate: 5
 theme: PaperMod
@@ -71,6 +71,8 @@ params:
     buttons:
       - name: education
         url: education
+      - name: experience
+        url: experience
       - name: projects
         url: projects
 
@@ -121,6 +123,10 @@ menu:
       name: education
       url: /education/
       weight: 5
+    - identifier: experience
+      name: experience
+      url: /experience/
+      weight: 10
     - identifier: projects
       name: projects
       url: /projects/
