@@ -38,3 +38,7 @@ editPost:
 ---
  
 ## Description
+
+I built a series of programs which explored neural networks using Pytorch, Keras, and Tensorflow. 
+
+#### Simple Neural Network
