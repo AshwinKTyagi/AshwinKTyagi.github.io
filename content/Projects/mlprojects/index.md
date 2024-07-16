@@ -7,7 +7,7 @@ aliases: ["/mlprojects"]
 tags: ["Projects", "Machine Learning Projects"]
 author: "Me"
 # author: ["Me", "You"] # multiple authors
-showToc: false
+showToc: true
 TocOpen: false
 draft: false
 math: true
@@ -25,7 +25,7 @@ ShowBreadCrumbs: false
 ShowPostNavLinks: false
 ShowWordCount: false
 ShowRssButtonInSectionTermList: false
-UseHugoToc: false
+UseHugoToc: true
 cover:
     image: "<image path/url>" # image path/url
     alt: "<alt text>" # alt text
@@ -91,9 +91,29 @@ To improve te accuracy, I implemented k-fold cross validation:
 
 By running this algorithm on 20 different values for k ranging from 5-100, I was able to recognize that increasing the number of folds would improve the accuracy by reducing the bias but at a higher computational cost. 
 
-
-
 ### Classifying MNIST digits using generative modeling
+
+
+
+```
+    Split off the last 10,000 training set into a new validation set
+    
+    for each label [0-9]:
+        // Fit a Gaussian generative model to the training data
+
+        c = regularization term(I used 3,000)
+        mu vector(784) = np.mean of all training vectors with current label
+        Sigma vector(794) = np.cov of all training vectors + (c * identity matrix)
+
+        Pi(1) = frequency of current label
+    
+    //combine all the found values into our parameters such that they have following dimensions
+    return parameters mu(10x784), sigma(10x784x784), and Pi(10x1)
+```
+
+Displaying the mu parameters gave the "average" representation of all the vectors for each label. 
+
+TODO: Not finished
 
 ### Ridge and Lasso Regression
 
