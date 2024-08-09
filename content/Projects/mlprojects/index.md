@@ -9,7 +9,7 @@ author: "Me"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
-draft: true
+draft: true #change this to publish
 math: true
 hidemeta: true
 comments: false
