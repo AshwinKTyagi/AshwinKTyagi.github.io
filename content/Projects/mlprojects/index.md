@@ -9,7 +9,7 @@ author: "Me"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
-draft: false
+draft: true
 math: true
 hidemeta: true
 comments: false
@@ -93,11 +93,10 @@ By running this algorithm on 20 different values for k ranging from 5-100, I was
 
 ### Classifying MNIST digits using generative modeling
 
-
+To study generative modeling, I revisited the MNIST digits dataset. To test the accuracy of our test, we first created a validation set using 10,000 of the 60,000 training points. This was simply done by spliting off the last 10,000 training set into the new set. From there, I created an a function that found the parameters needed to fit the Gaussian model: the average vectors, mu; the covariance vectors sigma, and the frequencies, Pi. This is the algorithm I used:
+    
 
 ```
-    Split off the last 10,000 training set into a new validation set
-    
     for each label [0-9]:
         // Fit a Gaussian generative model to the training data
 
@@ -111,13 +110,21 @@ By running this algorithm on 20 different values for k ranging from 5-100, I was
     return parameters mu(10x784), sigma(10x784x784), and Pi(10x1)
 ```
 
-Displaying the mu parameters gave the "average" representation of all the vectors for each label. 
+Displaying the mu parameters gave the expected representation for each label. To make predictions, I used the `skikit.learn`'s `multivariate_norm` function and got noticed that of the 10,000 values in the validation set, the model made 426 errors. This gave me an error rate of 0.0426. Of these errors, it was clear how the images were similar to the average images for the predicted label.
 
-TODO: Not finished
+![gaussian_wrong_predictions](images/gaussian_wrong_predictions.png)
 
 ### Ridge and Lasso Regression
 
-### Binary Logistic Regression and Stepwise Forward Selection
+In learning other regression methods, I covered Ridge and Lasso Regression. Both of these are extensions of linear regression in that they add a regularization term to handle different qualities of our desired model. Ridge regression uses the L2-norm of the coefficients to shrink the coefficients while Lasso uses the L1-norm. Since the L2-norm uses the squares of the magnitudes of the coefficients, the Ridge regression is better in situations where all features are relevant. On the other hand, Lasso regression has the potential to completely eliminate features, since the L1-norm is found using the absolute value of the difference in the coefficients. This makes Lasso regression suitable in cases where we need to cut down the number of features to find the most relavent ones. 
+
+### Binary Logistic Regression
+
+To practice binary logistic regression, I used a shortened version of UCI's heart disease dataset which consists of 303 datapoints, each of which are vectors of length 14: 13 attributes and a binary label. I first partitioned the dataset into 200 training points and 103 test points. After that, I fit a binary logistic model using the `sklearn.linear_model`'s function by the same name. The test error I received was 0.1553. Using 5-fold cross-validation, my error estimate on the training set was 0.18. 
+
+### Stepwise Forward Selection
+
+
 
 ### Coordinate Descent
 
