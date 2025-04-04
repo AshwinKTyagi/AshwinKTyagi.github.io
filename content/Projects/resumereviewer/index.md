@@ -120,5 +120,12 @@ The resume reviewer includes a chat interface where users can ask questions or r
 4. Conversation Persistence
     - The user's message and AI's reply are appended to a *chat_history* array associated to the document in `MongoDB`.
     - This allows the frontend to display a continuous and contextual conversation
-    
+
 ## Future Plans
+
+Handle Vector Embeddings
+- Embedding-Based Job Matching
+    - The goal is to compare a user’s resume embedding to those of successful, accepted resumes for specific job roles.
+    - By computing cosine similarity between vectors, the system can provide a relevance score and actionable feedback
+- Improved RAG Context Filtering
+    - Embeddings can also help narrow down which parts of the resume to include as context for RAG-style prompts—especially useful when the resume is long or highly technical.
