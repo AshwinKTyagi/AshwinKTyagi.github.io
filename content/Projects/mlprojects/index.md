@@ -44,13 +44,7 @@ I completed a series of assignments in a machine learning course, in which I lea
 
 ### Nearest Neighbor
 
-The course began by applying the nearest neighbor algorithm to the MNIST dataset. This dataset includes 60,000 training images and 10,000 testing images, each of which are 28x28 grids depicting hand-written numbers. Each image has a correspoding label which is used as a classifier. For my  nearest neighbor algorithm, I first defined a function to find euclidian distance.
-
-$$
-    ||x-y||^2 = \sum_{i=1}^{d} (x_i-y_i)^2
-$$
-
-Which simply became:
+The course began by applying the nearest neighbor algorithm to the MNIST dataset. This dataset includes 60,000 training images and 10,000 testing images, each of which are 28x28 grids depicting hand-written numbers. Each image has a correspoding label which is used as a classifier. For my nearest neighbor algorithm, I first defined a function to find euclidian distance.
 
 ```
 np.sum(np.square(x-y))
@@ -77,7 +71,7 @@ Pseduocode for LOOCV accuracy:
 
 My calculated accuracy was 0.77.
 
-To improve te accuracy, I implemented k-fold cross validation:
+To improve the accuracy, I implemented k-fold cross validation:
 
 ```
     Given a value k, split the dataset into k equally-sized folds.
