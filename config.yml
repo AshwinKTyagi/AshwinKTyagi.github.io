@@ -78,6 +78,12 @@ params:
         url: experience
       - name: projects
         url: projects
+    featured:
+      title: My Favorite Projects
+      folder: projects
+      items:
+        - url: projects/resumereviewer/ 
+        - url: projects/tinychip/ 
 
   # home-info mode
   # homeInfoParams:
@@ -149,7 +155,7 @@ menu:
       name: ashwintyagi.com 
       url: https://ashwintyagi.com
       weight: 30
-# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+
 pygmentsUseClasses: true
 markup:
   goldmark:
