@@ -44,6 +44,8 @@ Github: https://github.com/AshwinKTyagi/Resume-Reviewer
 
 I developed an app that allows users to upload their resumes in PDF or DOCX format. The backend extracts the text from the uploaded resume and processes it using a large language model to provide feedback.
 
+![resume_processing](images/proc_resume.png)
+
 ## Backend Techstack
     Routing
     - FastAPI
