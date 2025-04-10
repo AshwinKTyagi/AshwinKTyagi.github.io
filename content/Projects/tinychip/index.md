@@ -36,7 +36,7 @@ editPost:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
-Github: https://github.com/AshwinKTyagi/TinyChip
+### [Link to Github](https://github.com/AshwinKTyagi/TinyChip)
 
 ## Project Desciption
 

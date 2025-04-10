@@ -36,7 +36,7 @@ editPost:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
-Github: https://github.com/CSE-110-Winter-2023/cse-110-project-cse110-team-10
+[Link to Github](https://github.com/CSE-110-Winter-2023/cse-110-project-cse110-team-10)
 
 ## Project Desciption
 

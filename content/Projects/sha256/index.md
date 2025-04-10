@@ -36,7 +36,7 @@ editPost:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
-Github: https://github.com/aktyagiUCSD/ECE-111-Final-Project
+### [Link to Github](https://github.com/aktyagiUCSD/ECE-111-Final-Project)
 
 ## SHA-256 Encoder
 ### Objective:

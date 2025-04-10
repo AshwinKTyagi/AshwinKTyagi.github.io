@@ -38,7 +38,7 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 ---
 
-Github: https://github.com/AshwinKTyagi/Resume-Reviewer
+### [Link to Project's Github](https://github.com/AshwinKTyagi/Resume-Reviewer)
 
 ## Description
 
