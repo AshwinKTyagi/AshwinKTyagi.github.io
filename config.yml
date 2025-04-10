@@ -82,7 +82,8 @@ params:
       title: My Favorite Projects
       folder: projects
       items:
-        - url: projects/resumereviewer/ 
+        - url: projects/resumereviewer/
+        - url: projects/texttosql/
         - url: projects/tinychip/ 
 
   # home-info mode
