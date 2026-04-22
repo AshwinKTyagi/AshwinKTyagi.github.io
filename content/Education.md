@@ -11,7 +11,7 @@ TocOpen: false
 draft: false
 hidemeta: true
 comments: false
-description: "UC San Diego - Spring 2024"
+description: "Georgia Tech & UC San Diego"
 canonicalURL: "https://canonical.url/to/education"
 disableHLJS: false # to disable highlightjs
 disableShare: false
@@ -36,6 +36,22 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 ---
 
-#### BE in Computer Engineering, Minor in Business
+### Georgia Institute of Technology
 
- During my studies at UCSD I have explored the basics of computer vision and deep learning. I have also taken courses in analog design and computer architecture, giving me an understanding of hardware design.
+#### Remote | Jan. 2026 - Current
+
+#### Online Master of Science in Computer Science
+
+Currently pursuing a graduate degree in Computer Science through Georgia Tech's OMSCS program, focusing on machine learning and systems.
+
+---
+
+### University of California, San Diego
+
+#### San Diego, CA | Sept. 2020 - Jun. 2024
+
+#### Bachelor of Engineering, Computer Engineering; Minor, Business
+
+During my studies at UCSD I explored computer vision, machine learning, and deep learning, alongside courses in analog design, computer architecture, and database systems — giving me a broad foundation across both hardware and software.
+
+**Relevant Coursework:** Graduate Algorithms, DB System Principles, Intro to Computer Vision, Intro to ML, Software Engineering, Software Tools & Techniques
